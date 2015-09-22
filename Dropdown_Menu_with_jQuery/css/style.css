@@ -1,0 +1,78 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:	Smashing Magazine
+Version:	1.1
+Last change:	05/02/08 [fixed Float bug, vf]
+Assigned to:	Vitaly Friedman (vf), Sven Lennartz (sl)
+Primary use:	Magazine 
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Import fonts
+2. General Style
+3. Header 
+-------------------------------------------------------------------*/
+/*
+===============================================
+			1. Import fonts
+===============================================
+*/
+
+/*
+===============================================
+			2. General Style
+===============================================
+*/
+
+
+.menu_area{background: #00aff0;}
+.mainmenu{}
+
+.mainmenu ul{
+margin: 0;
+padding: 0;
+list-style: none;
+}
+.mainmenu ul li{
+float: left;
+border-right: 1px solid#0290c4;
+border-left: 1px solid#3fc9fc;
+position: relative;
+}
+.mainmenu ul li:first-child{
+border-left: 0px solid#3fc9fc;
+}
+.mainmenu ul li:last-child{
+border-right: 0px solid#0290c4;
+}
+.mainmenu ul li a{
+display: block;
+color: #fff;
+padding: 15px;
+}
+.mainmenu ul li a:hover{
+text-decoration: none;
+background: #57cbf6;
+}
+
+.mainmenu ul li ul{
+position: absolute;
+left: -999999px;
+}
+.mainmenu ul li:hover ul{left: 0px;}
+
+.mainmenu ul li ul li{
+float: none;
+border-left: 0px solid#3fc9fc;
+border-right: 0px solid#0290c4;
+width: 200px;
+border-bottom: 1px solid#3fc9fc;
+}
+.mainmenu ul li ul li:last-child{
+border-bottom: 0px solid#3fc9fc;
+}
+.mainmenu ul li ul li a{background: #00aff0;}
+
+.mainmenu ul li ul li a:hover{}

@@ -1,0 +1,50 @@
+/*============================================================ 
+	Responsive Styles
+ ============================================================*/
+
+/*============================================================
+	For Small Desktop (1st device)
+    it will support max width 980 to 1150 px
+==============================================================*/
+
+@media (min-width: 980px) and (max-width: 1150px) {
+
+
+ 
+}
+
+
+/*============================================================
+	Tablet (Portrait) Design for a width of 768px (2nd device)
+    it will support max width 768 to 979 px
+==============================================================*/
+
+@media (min-width: 768px) and (max-width: 979px) {
+
+
+ 
+}
+
+
+/*============================================================
+	Mobile (Portrait) Design for a width of 320px (4th device)
+    it will support max width 0 to 479 px
+==============================================================*/
+
+@media only screen and (max-width: 767px) {
+
+
+ 
+}
+
+
+/*============================================================
+	Mobile (Landscape) Design for a width of 480px (3rd device)
+    it will support max width 480 to 767 px
+==============================================================*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+
+ 
+}
